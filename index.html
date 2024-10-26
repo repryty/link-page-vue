@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>REEP's Links</title>
+    </head>
+    <body>
+        <div id="app">
+            <ul>
+                <li id="profile"  @click="logoToggle = !logoToggle">
+                    <div class="image-container">
+                        <Transition name="image-container"><img :key="logoToggle" :src="logoToggle ? '/img/REEP_TYPE.webp' : '/img/reep_profile.webp'" alt="REEP Profile"></Transition>
+                    </div>
+                    <div>
+                        <Transition name="profile-name"><h2 :key="logoToggle">{{logoToggle ? '_REEP' : '리프'}}</h2></Transition>
+                    </div>
+                    <p>
+                        세상 멍청이
+                    </p>
+                </li>
+                <a v-for="item in links" v-bind:href="item.href">
+                    <li>
+                        <img :src="item.icon" alt="">
+                        <div>
+                            <h2>{{item.title}}</h2>
+                            <p>{{item.description}}</p>
+                        </div>
+                    </li>
+                </a>
+            </ul>
+            <footer>
+                <span>repryty 2024, Powered by Undefined</span>
+            </footer>
+        </div>
+        <script type="module" src="/src/main.ts"></script>
+    </body>
+</html>

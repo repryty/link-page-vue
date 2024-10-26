@@ -1,0 +1,44 @@
+[
+    {
+        "title": "X(Twitter)",
+        "href": "https://twitter.com/@VRC_REEP",
+        "description": "XX해요",
+        "icon": "/img/X_logo.webp"
+    },
+    {
+        "title": "푸슝",
+        "href": "https://pushoong.com/ask/2996236325",
+        "description": "🚀푸슈웅!",
+        "icon": "/img/pushoong.webp"
+    },
+    {
+        "title": "VRChat",
+        "href": "https://vrchat.com/home/user/usr_c2eeb18a-831f-4989-b92f-f16a57d0b69a",
+        "description": "채강의 가상현실게임",
+        "icon": "/img/VRC.webp"
+    },
+    {
+        "title": "Discord",
+        "href": "https://discord.com/users/784412272805412895",
+        "description": "엄청엄청난 메신저",
+        "icon": "/img/discord.webp"
+    },
+    {
+        "title": "Steam",
+        "href": "https://steamcommunity.com/id/_REEP/",
+        "description": "\"VALVE\"",
+        "icon": "/img/Steam.webp"
+    },
+    {
+        "title": "Booth",
+        "href": "https://reeep.booth.pm/",
+        "description": "리프의 용돈 수급처",
+        "icon": "/img/booth.webp"
+    },
+    {
+        "title": "GitHub Pages",
+        "href": "https://repryty.dev/",
+        "description": "잘 안쓰는 블로그",
+        "icon": "/img/REEPSTORE_LOGO.webp"
+    }
+]
