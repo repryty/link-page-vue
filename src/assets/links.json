@@ -26,7 +26,7 @@
     {
         "title": "Steam",
         "href": "https://steamcommunity.com/id/_REEP/",
-        "description": "\"VALVE\"",
+        "description": "룰루랄라게임하기",
         "icon": "/img/Steam.webp"
     },
     {
@@ -40,5 +40,17 @@
         "href": "https://repryty.dev/",
         "description": "잘 안쓰는 블로그",
         "icon": "/img/REEPSTORE_LOGO.webp"
+    },
+    {
+        "title": "GitHub",
+        "href": "https://github.com/repryty",
+        "description": "리프의 능지 증명서",
+        "icon": "/img/github.webp"
+    },
+    {
+        "title": "Bluesky",
+        "href": "https://bsky.app/profile/repryty.dev",
+        "description": "짹쨱이 대피소",
+        "icon": "/img/bluesky.webp"
     }
 ]
